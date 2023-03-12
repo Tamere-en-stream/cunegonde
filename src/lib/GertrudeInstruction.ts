@@ -1,6 +1,10 @@
 type NumericString = `${number}`
 
-type Ratio = `${NumericString}/${NumericString}`
+export type Ratio = `${NumericString}/${NumericString}`
+export function isRatio(ratio: string): ratio is Ratio {
+    const regex = new RegExp(`^[0-9]/[0-9]$`)
+    return regex.test(ratio)
+}
 
 export const GertrudeInstructions = {
     '6/3': "DefFun",
