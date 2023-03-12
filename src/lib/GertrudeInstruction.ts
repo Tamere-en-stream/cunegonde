@@ -1,4 +1,4 @@
-export enum GertrudeInstructions {
+export enum GertrudeInstruction {
 	DefFun = '6/3',
 	CallFun = '2/7',
 	BeginCodeBlock = '3/6',
