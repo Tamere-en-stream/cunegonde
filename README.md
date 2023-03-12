@@ -1,4 +1,9 @@
-# create-svelte
+# cunegonde
+Web IDE for the .Gertrude language
+
+# Reference
+* [.Gertrude esolang wiki page](https://esolangs.org/wiki/.Gertrude)
+* [.Gertrude specification (more or less)](http://www.p-nand-q.com/programming/languages/gplz/gertrude.html)
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
