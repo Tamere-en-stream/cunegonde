@@ -22,7 +22,7 @@ export default function genevieve(gertrude: GertrudeInstruction[]): string {
 			case GertrudeInstruction.EndCodeBlock:
 				code += '}';
 				break;
-			case GertrudeInstruction.DefineVar:
+			case GertrudeInstruction.DefVar:
 				code += 'let ';
 				break;
 			case GertrudeInstruction.Assignment:
